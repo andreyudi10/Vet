@@ -10,7 +10,7 @@ const Footer = () =>{
             className="d-flex flex-row justify-content-between align-items-center p-4" 
             style={{backgroundColor:"#1A3150"}}
         >        
-        <div className={styles.logoContainer}>
+        <div className={styles.logoContainer} style={{marginLeft:'2rem'}}>
             <Logo height="3rem" width="5rem" className="d-flex flex-column align-items-center"/>    
             <div className={styles.vet}>V E T</div>                             
         </div>
@@ -34,7 +34,7 @@ const Footer = () =>{
                     <a href="#" style={{textDecoration:"none",color:"white"}}>Contact Us</a>                                        
                 </ul>
             </div>
-            <div >
+            <div style={{marginRight:'2rem'}}>
                 <div style={{color:"white",fontWeight:"bold", marginBottom:"0.5rem",fontSize:"22px"}}>
                     Follow Us
                 </div>
